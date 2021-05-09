@@ -1,0 +1,148 @@
+
+body{
+
+    
+    font-family:sans-serif ;
+
+ 
+}
+#title{
+    background-color:#ea2c62;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+h1,h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height:1.5;  
+
+}
+
+#cta h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    padding-top: 5%;
+    line-height:1.5;  
+    color: #fff;
+}
+/* navigation bar */
+.navbar-brand{
+    font-family:'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+/* download btn*/
+.d-btn{
+    margin: 5% 3% 5% 0;
+}
+/*title image*/
+.t-image{
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 30%;
+}
+
+
+/* feature section*/
+
+
+#features{
+    padding: 7% 15%;
+    
+    background-color: #fff;
+    position: relative;
+ 
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+.icon{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ea2c62;
+}
+
+
+/* testinomial section*/
+#testimonials{
+  
+    text-align: center;
+    background-color:#ef8172;
+    color: #fff;
+
+}
+.testimonial-image{
+    width: 10%;
+    border:1px;
+    border-radius: 50%;
+    margin: 20px;
+     
+    
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color:#ef8172;
+    text-align: center;
+    padding: 3%;
+}
+.p-img{
+width:15%;
+padding: 20px 20px 50px;
+}
+
+/*pricing--- section*/
+
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+ padding: 3% 2%;   
+}
+@media (max-width:996px) {
+    .title{
+        text-align: center;
+    }
+    .t-image{
+        display: none;
+    }
+    
+}
+
+/*ecta section*/
+#cta{
+    background-color:#ea2c62;
+    text-align: center;
+    padding: 7% 15%;
+    font-size: 3rem;
+}
+/* footer section*/
+#footer{
+    text-align: center;
+    background-color: #fff;
+    padding: 7% 15%;
+}
+.fab ,.fas{
+    margin: 20px 10px;
+    cursor: pointer;
+}
